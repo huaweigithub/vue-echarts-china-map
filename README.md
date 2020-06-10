@@ -21,13 +21,5 @@ npm run dev
 ```
 npm run build
 ```
-部署到tomcat参考：[通过Vue CLI 快速创建Vue项目并部署到tomcat](https://dongkelun.com/2018/11/19/vueCliCreateProject/)
-
-
-## 3、博客地址
-[https://dongkelun.com/2019/02/18/vueEchartsMap/](https://dongkelun.com/2019/02/18/vueEchartsMap/)
-
-## 4、html+css+js版本地址
-[https://github.com/dongkelun/echarts-map](https://github.com/dongkelun/echarts-map)
 
 
