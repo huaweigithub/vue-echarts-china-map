@@ -151,7 +151,6 @@ function registerAndsetOption(myChart, id, name, mapJson, flag) {
   ];
   let areaData = [];
   data.map(item => { // 扩大热力图效果
-    console.log("item...", item)
     areaData.push(...new Array(1).fill(item));
   });
   let mapMax = Math.max(...data.map(item => item[2]));  //表示选取data的下标为2的
