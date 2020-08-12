@@ -154,9 +154,9 @@ function registerAndsetOption(myChart, id, name, mapJson, flag) {
     console.log("item...", item)
     areaData.push(...new Array(1).fill(item));
   });
-  let mapMax = Math.max(...data.map(item => item[2]));
+  let mapMax = Math.max(...data.map(item => item[2]));  //表示选取data的下标为2的
   let mapMin = Math.min(...data.map(item => item[2]));
-  myChart.setOption({ 
+  myChart.setOption({
     tooltip: {
       show: false,
       trigger: 'item',
@@ -247,7 +247,7 @@ body {
 </style>
 
 <style scoped>
-.box {  
+.box {
   /* width: 90%;
   height: 80vh; */
   background-color: rgba(24, 27, 52, 0.62);
